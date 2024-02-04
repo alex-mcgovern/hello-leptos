@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "rust-analyzer.rustfmt.overrideCommand": [
+        "leptosfmt",
+        "--stdin",
+        "--rustfmt"
+    ],
+    "rust-analyzer.check.command": "clippy",
+}
